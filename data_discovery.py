@@ -70,7 +70,6 @@ with open('india_pii_data_sample.txt','r') as data_input:
 
                                          #  FINDING DATA FROM CSV(PAN, AADHAR,DRIVING LISCENCE, VOTERID, CVV)
 
-# Pattern recorganixe from csv file
 with open('sample_data.csv','r') as csv_data:
     csv_reader=csv.reader(csv_data)
 
